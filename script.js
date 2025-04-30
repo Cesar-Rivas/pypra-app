@@ -29,7 +29,7 @@ let currentDistance = 10;
 let autoRotate = true;
 let animatingCamera = true;
 let lastInteractionTime = Date.now();
-const inactivityTimeout = 10000; // 10 segundos
+const inactivityTimeout = 1500; // 1.5 segundos
 
 function adjustViewerSize() {
     renderer.setSize(container.clientWidth, container.clientHeight);
