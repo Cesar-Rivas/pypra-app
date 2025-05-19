@@ -1,0 +1,23 @@
+.img-clear-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    color: rgb(255, 0, 25);
+    font-size: 1.2rem;
+    line-height: 1;
+    z-index: 10;
+    cursor: pointer;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.img-clear-btn:hover {
+    color: rgb(157, 36, 48);
+}
+
+.img-clear-btn:focus {
+    outline: none;
+    box-shadow: none;
+}
